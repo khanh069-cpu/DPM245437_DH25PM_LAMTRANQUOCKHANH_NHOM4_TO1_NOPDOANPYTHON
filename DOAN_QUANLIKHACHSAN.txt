@@ -6,7 +6,7 @@ import mysql.connector
 db = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="",  # sửa nếu có mật khẩu
+    password="250206",  
     database="QLKS"
 )
 cursor = db.cursor()
